@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Weather Forecast</h1>
+
+    <form id="city-form" class="controls">
+      <input id="city-input" placeholder="Enter city (e.g. London,UK)" required />
+      <button id="search-btn" type="submit">Search</button>
+      <button id="loc-btn" type="button">Use my location</button>
+    </form>
+
+    <div id="current" class="weather-card" style="display:none">
+      <h2 id="city-name">--</h2>
+      <div class="temp" id="temperature">--°C</div>
+      <div id="description">--</div>
+      <div id="humidity">--</div>
+      <div id="wind">--</div>
+    </div>
+
+    <div id="chart-container" style="display:none">
+      <canvas id="weatherChart"></canvas>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

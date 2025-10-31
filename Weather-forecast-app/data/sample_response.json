@@ -1,0 +1,19 @@
+{
+  "current": {
+    "city": "Delhi",
+    "country": "IN",
+    "weather_main": "Clouds",
+    "weather_desc": "scattered clouds",
+    "icon": "03d",
+    "temp": 30.0,
+    "feels_like": 31.2,
+    "humidity": 45,
+    "wind_speed": 3.5,
+    "dt": "2025-10-31T06:30:00"
+  },
+  "daily": [
+    {"dt":"2025-11-01","temp_day":30,"temp_min":25,"temp_max":32,"humidity":40,"weather_main":"Clear"},
+    {"dt":"2025-11-02","temp_day":29,"temp_min":24,"temp_max":31,"humidity":50,"weather_main":"Clouds"}
+  ],
+  "hourly": []
+}
