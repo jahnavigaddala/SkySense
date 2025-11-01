@@ -1,4 +1,4 @@
-# ☁️ SkySense — Smart 7-Day Weather Forecast App
+# ☁️ SkySense — Smart 6-Day Weather Forecast App
 
 ![Made with Node.js](https://img.shields.io/badge/Made%20with-Node.js-green?logo=node.js)
 ![Flask Dashboard](https://img.shields.io/badge/Dashboard-Flask-blue?logo=flask)
