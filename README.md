@@ -81,11 +81,8 @@ Then open your browser and go to:
   - `utils/weather_api.py` — Handles API calls to OpenWeatherMap
   - `utils/format_data.py` — Formats and processes weather data
 
-### 🗄️ Database (Optional)
-- **SQLite3** — Local database for logs or historical weather data
-
 ### 🧩 API
-- **OpenWeatherMap API** — Provides real-time and 7-day weather forecasts
+- **OpenWeatherMap API** — Provides real-time and 6-day weather forecasts
 
 ### 🔧 Dev Tools & Configuration
 - **Git & GitHub** — Version control and code hosting
