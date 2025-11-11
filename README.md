@@ -108,3 +108,8 @@ Then open your browser and go to:
 
 ---
 
+## 📬 Contact  
+For inquiries, reach out via:  
+🔗 **LinkedIn**: [Jahnavi Gaddala](https://www.linkedin.com/in/jahnavii-g/)  
+
+
